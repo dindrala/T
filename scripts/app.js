@@ -1,5 +1,3 @@
-angular.module("indeedForDevelopers", []);
-.controller('mainCtrl', function($scope) {
-  $scope.
+'use strict';
 
-})
+angular.module("indeedForDevelopers", []);
