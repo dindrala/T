@@ -7,7 +7,16 @@ controllers.controller('AppCtrl', function ($scope) {
 
 });
 
-controllers.controller('', function($scope, $http){
+controllers.controller('JobsCtrl', function($scope, $http){
+  $http({
+    method: "GET",
+    url: ""
 
+
+
+  }).then(function (data) {
+
+
+  });
 
 });
