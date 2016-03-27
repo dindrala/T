@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module("indeedForDevelopers", []);
+angular.module("indeedForDevelopers", ['indeedForDevelopers.controllers']);
