@@ -6,6 +6,7 @@
     <title>Indeed4Developers!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://gdc.indeed.com/ads/apiresults.js"></script>
   </head>
   <body ng-controller="AppCtrl">
     <div class="container">
@@ -15,11 +16,12 @@
           <ul class="nav">
           </ul>
         </div>
-        </div>
-          <h1>Hello {{ name }}</h1>
-           <input type="text" ng-model="name">
-           <button ng-click="updateName()" class="btn">Update</button>
+        <div ng-controller="JobsCtrl"></div>
       </div>
+    </div>
+
+
+
 
 
 
@@ -28,19 +30,6 @@
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!-- indeed api job roll code
-    <script type="text/javascript">
-      indeed_jobroll_title = 'Web Developer jobs';
-      indeed_jobroll_background_color = "#FFFFFF";
-      indeed_jobroll_width = "150px";
-      indeed_jobroll_text_font = "10px Arial, Helvetica, Sans serif";
-      indeed_jobroll_link_color = "#000000";
-      indeed_jobroll_border = "1px solid #000000";
-   </script>
-   <script type="text/javascript" src="http://www.indeed.com/jobroll?q=Web+Developer&l=&limit=10">
-   </script>
-   <noscript><a href="http://www.indeed.com/">Jobs</a> by Indeed</noscript> -->
-
 
 
 
